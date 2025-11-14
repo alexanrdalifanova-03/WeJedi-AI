@@ -11,7 +11,7 @@ body {
   overflow: hidden;
   padding: 0px 100px;
 	min-height: 100vh;      /* fallback для старих браузерів */
-  min-height: 100dvh;     /* нормальна висота для мобільних браузерів */
+  height: 100svh;
 }
 
 body::-webkit-scrollbar {
@@ -23,6 +23,11 @@ body::-webkit-scrollbar {
   inset: 0;
   z-index: 0;
   pointer-events: none;
+}
+
+#bg-container canvas {
+  height: 100vh;
+  height: 100svh;
 }
 
 
