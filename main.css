@@ -96,6 +96,7 @@ body::-webkit-scrollbar {
 	}
 	body {
 		padding: 0px 15px;
+		overflow: hidden!important;
 	}
 	.logo img {
 		width:180px;
