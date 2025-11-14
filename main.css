@@ -8,7 +8,6 @@ body {
   background: #0C0C0C;
   color: #fff;
   font-family: "Questrial", sans-serif;
-  overflow: hidden;
   padding: 0px 100px;
 	min-height: 100vh;      /* fallback для старих браузерів */
   height: 100svh;
@@ -102,7 +101,6 @@ body::-webkit-scrollbar {
 	}
 	body {
 		padding: 0px 15px;
-		overflow: hidden!important;
 	}
 	.logo img {
 		width:180px;
