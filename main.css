@@ -5,12 +5,13 @@
 }
 
 body {
-  max-height: 100vh;
   background: #0C0C0C;
   color: #fff;
   font-family: "Questrial", sans-serif;
   overflow: hidden;
   padding: 0px 100px;
+	min-height: 100vh;      /* fallback для старих браузерів */
+  min-height: 100dvh;     /* нормальна висота для мобільних браузерів */
 }
 
 body::-webkit-scrollbar {
