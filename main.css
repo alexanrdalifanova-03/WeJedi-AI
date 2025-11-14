@@ -13,6 +13,10 @@ body {
   padding: 0px 100px;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 #bg-container {
   position: fixed;
   inset: 0;
